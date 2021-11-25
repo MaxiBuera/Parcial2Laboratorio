@@ -537,11 +537,7 @@ int ll_sort(LinkedList* this, int (*pFunc)(void*,void*), int order)
 
 
 
-/** \brief la función ll_map recibirá una lista y una función pFunc. se deberán iterar todos los
-        elementos de la lista y pasárselos a la función pFunc que recibirá el elemento y le asignará a
-        los campos infectados, recuperados y muertos un número aleatorio. el retorno de pFunc que
-        es el país con todos sus campos cargados se agregará a la lista resultado. esta nueva lista será
-        devuelta por ll_map
+/** \brief la función ll_map ejecutará la función recibida como parámetro por cada ítem de la lista
  *
  * \param  lista
  * \param   funcion
