@@ -1,0 +1,1 @@
+int librosMinotauro(void* plibro);
